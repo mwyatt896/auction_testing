@@ -1,0 +1,31 @@
+// The program input for auction/src/main.leo
+[place_bid]
+// Note that `bidder` must have the same address as the caller (refer to `program.json`).
+bidder: address = aleo18rkvvunalfq2kg5wc9jdzyqlqqwj9arrtx9tzdd45ch9wwczv5fqzm0h8u;
+amount: u64 = 2u64;
+
+[resolve]
+first: Bid = Bid {
+  owner: aleo1asu88azw3uqud282sll23wh3tvmvwjdz5vhvu2jwyrdwtgqn5qgqetuvr6,
+  bidder: aleo18rkvvunalfq2kg5wc9jdzyqlqqwj9arrtx9tzdd45ch9wwczv5fqzm0h8u,
+  amount: 2u64,
+  is_winner: false,
+  _nonce: 3624280971595776717132102325001314161597333242915410012276157166597130575792group.public
+};
+second: Bid = Bid {
+    owner: aleo1asu88azw3uqud282sll23wh3tvmvwjdz5vhvu2jwyrdwtgqn5qgqetuvr6,
+    bidder: aleo1tx8e2rmm3ap8vu3st2x79ausrq8x3nqs0ln05v5g6ddpf0nhcuyq5hm0yq,
+    amount: 24u64,
+    is_winner: false,
+    _nonce: 1635474322959998727812727786860193861506102794050195384593971440884677453921group,
+};
+
+
+[finish]
+bid: Bid = Bid {
+    owner: aleo1asu88azw3uqud282sll23wh3tvmvwjdz5vhvu2jwyrdwtgqn5qgqetuvr6,
+    bidder: aleo1tx8e2rmm3ap8vu3st2x79ausrq8x3nqs0ln05v5g6ddpf0nhcuyq5hm0yq,
+    amount: 24u64,
+    is_winner: false,
+    _nonce: 4195536711021629817871261453343069023119119274215827022954896024118351555272group,
+};
