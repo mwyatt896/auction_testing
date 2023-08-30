@@ -2,9 +2,5 @@
     "program": "auction_testing.aleo",
     "version": "0.0.0",
     "description": "",
-    "development": {
-        "private_key": "APrivateKey1zkp9wbgGvuFTbRPfyWGGvYcosHEpZyhtX4tthg9Cc6grxyn",
-        "address": "aleo18rkvvunalfq2kg5wc9jdzyqlqqwj9arrtx9tzdd45ch9wwczv5fqzm0h8u"
-    },
     "license": "MIT"
 }
